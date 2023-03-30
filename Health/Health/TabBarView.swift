@@ -14,14 +14,14 @@ struct TabBarView: View {
         
 
          TabView {
-            Text("")
+            Text("Summary")
                 .foregroundColor(.red)
                 .fontWeight(.black)
                 .tabItem {
                     Image(systemName: "heart.fill")
                     Text("Sammary")
                     }
-            Text("Health")
+            Text("Health Sharing")
                 .foregroundColor(.red)
                 .fontWeight(.black)
                 .tabItem {
